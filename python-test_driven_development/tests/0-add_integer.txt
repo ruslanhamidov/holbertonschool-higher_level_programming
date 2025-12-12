@@ -1,29 +1,14 @@
 >>> add_integer = __import__('0-add_integer').add_integer
 
-case: 1 + 2
 >>> print(add_integer(1, 2))
 3
-case: 1 + -2
 >>> print(add_integer(1, -2))
-1
-case: 1.4 + 2
+-1
 >>> print(add_integer(1.4, 2))
 3
-case: 1 + "2"
->>> print(add_integer(1, "2"))
+>>> try:
+...     print(add_integer(1, "2"))
+... except Exception as e:
+...     print(e)
 b must be an integer
-
-Test present: integer casting
-
-Test present: check type
-
-Test present: regular addition
-
-Test present: Float overflow
-
-Test present: cannot convert float NaN to integer
-
-Test present: missing one argument
-
-Test present: missing two arguments
 
