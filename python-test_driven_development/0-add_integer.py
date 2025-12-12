@@ -1,7 +1,7 @@
+#!/usr/bin/python3
 '''
 Module which contains function to add two numbers
 '''
-#!/usr/bin/python3
 
 
 def add_integer(a, b=98):
