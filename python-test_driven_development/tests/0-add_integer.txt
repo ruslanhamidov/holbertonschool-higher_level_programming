@@ -1,16 +1,16 @@
->>>add_integer = __import__('0-add_integer').add_integer
+>>> add_integer = __import__('0-add_integer').add_integer
 
 case: 1 + 2
->>>print(add_integer(1, 2))
+>>> print(add_integer(1, 2))
 3
 case: 1 + -2
->>>print(add_integer(1, -2))
+>>> print(add_integer(1, -2))
 1
 case: 1.4 + 2
->>>print(add_integer(1.4, 2))
+>>> print(add_integer(1.4, 2))
 3
 case: 1 + "2"
->>>print(add_integer(1, "2"))
+>>> print(add_integer(1, "2"))
 b must be an integer
 
 Test present: integer casting
