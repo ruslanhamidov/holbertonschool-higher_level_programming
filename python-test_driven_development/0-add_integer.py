@@ -2,6 +2,8 @@
 Module which contains function to add two numbers
 '''
 #!/usr/bin/python3
+
+
 def add_integer(a, b=98):
     '''
     Add two integers safe with exception
