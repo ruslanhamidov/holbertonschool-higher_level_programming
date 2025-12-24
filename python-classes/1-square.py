@@ -13,4 +13,3 @@ class Square:
         initilaize method
         """
         self.__size = size
-
