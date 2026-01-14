@@ -73,16 +73,6 @@ class Rectangle:
             return 0
         return 2*(self.__width + self.__height)
 
-    def __repr__(self):
-        '''
-        repr represtantion of rectangle
-        '''
-        str = ''
-        for _ in range(self.__height):
-            str += '#' * self.__width
-            str += '\n'
-        return str
-
     def __str__(self):
         '''
         repr represtantion of rectangle
@@ -90,5 +80,7 @@ class Rectangle:
         str = ''
         for _ in range(self.__height):
             str += '#' * self.__width
+            if _ == self.__height - 1:
+                break
             str += '\n'
         return str
