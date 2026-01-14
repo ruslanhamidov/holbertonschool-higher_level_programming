@@ -91,4 +91,5 @@ class Rectangle:
         '''
         repr of instance
         '''
-        return "Rectangle(" +  str(self.__width) +  ", " +  str(self.__height) +  ")"
+        str = "Rectangle(" +  str(self.__width) +  ", " +  str(self.__height) +  ")"
+        return str
