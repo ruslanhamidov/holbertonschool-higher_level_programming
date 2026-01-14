@@ -91,5 +91,7 @@ class Rectangle:
         '''
         repr of instance
         '''
-        mystr = "Rectangle(" + str(self.__width) + ", " + str(self.__height) + ")"
+        width = str(self.__width)
+        height = str(self.__height)
+        mystr = "Rectangle(" + width + ", " + height + ")"
         return mystr
