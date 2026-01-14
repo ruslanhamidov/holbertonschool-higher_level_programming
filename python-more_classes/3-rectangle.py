@@ -75,9 +75,11 @@ class Rectangle:
 
     def __str__(self):
         '''
-        repr represtantion of rectangle
+        str represtantion of rectangle
         '''
         str = ''
+        if self.__width == 0 or self.__height == 0:
+            return str
         for _ in range(self.__height):
             str += '#' * self.__width
             if _ == self.__height - 1:
