@@ -80,6 +80,7 @@ class Rectangle:
         str = ''
         for _ in range(self.__height):
             str += '#' * self.__width
+            str += '\n'
         return str
 
     def __str__(self):
@@ -89,4 +90,5 @@ class Rectangle:
         str = ''
         for _ in range(self.__height):
             str += '#' * self.__width
+            str += '\n'
         return str
